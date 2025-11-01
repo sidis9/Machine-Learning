@@ -14,7 +14,7 @@ Traditional rule-based expense systems often overlook subtle or emerging fraud p
 - RapidMiner (Modeling)
 - Kaggle Dataset
 
-## 🗂️ Dataset
+## Dataset
 
 - **Source**: Kaggle – Fraud Detection Dataset
 - **Records**: 6,362,620
@@ -30,13 +30,13 @@ Traditional rule-based expense systems often overlook subtle or emerging fraud p
 | Model          | Accuracy | Precision | Recall | AUC   |
 |----------------|----------|-----------|--------|-------|
 | Decision Tree  | 99.33%   | 100%      | 33.33% | 0.661 |
-| Random Forest  | 99.88%   | 99.91%    | 50.28% | 0.782 ✅ |
+| Random Forest  | 99.88%   | 99.91%    | 50.28% | 0.782 |
 
-✅ **Random Forest outperformed Decision Tree**, especially on recall, making it the ideal choice for anomaly detection in real-world corporate settings.
+**Random Forest outperformed Decision Tree**, especially on recall, making it the ideal choice for anomaly detection in real-world corporate settings.
 
 ---
 
-## 📈 Why It Matters
+## Why It Matters
 
 - Detects hidden or emerging fraud patterns
 - Reduces manual audit overhead
@@ -45,7 +45,7 @@ Traditional rule-based expense systems often overlook subtle or emerging fraud p
 
 ---
 
-## 🧪 Future Enhancements
+## Future Enhancements
 
 - Explore **unsupervised learning** (e.g., Isolation Forest, Autoencoders)
 - Apply **NLP** for analyzing expense narratives
